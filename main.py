@@ -1,4 +1,6 @@
-a = int(input())
-b = int(input())
+mass = []
 
-print(a+b)
+for i in range(15):
+    num = int(input())
+    mass.append(num)
+print(mass)
